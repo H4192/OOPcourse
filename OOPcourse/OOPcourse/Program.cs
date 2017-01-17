@@ -13,9 +13,12 @@ namespace OOPcourse
         {
             AddToList( new SortNames() );
             AddToList( new Lottery() );
+            AddToList(new Labra2());
 
             while ( true )
             {
+                Console.Clear();
+                Console.Title = "OOP course";
                 int choise = -1;
                 Console.WriteLine( " Available exercises " );
                 for ( int i = 0; i < menuItems.Count; i++ )

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="labra2.cs" />
     <Compile Include="Lottery.cs" />
     <Compile Include="MenuItem.cs" />
     <Compile Include="SortNames.cs" />
